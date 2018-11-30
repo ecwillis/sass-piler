@@ -1,0 +1,24 @@
+{
+  "name": "sass-piler",
+  "version": "0.0.1",
+  "description": "A configureable sass compiler with a CLI component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecwillis/sass-piler.git"
+  },
+  "keywords": [
+    "sass",
+    "compiler",
+    "build"
+  ],
+  "author": "Eric Willis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecwillis/sass-piler/issues"
+  },
+  "homepage": "https://github.com/ecwillis/sass-piler#readme"
+}
