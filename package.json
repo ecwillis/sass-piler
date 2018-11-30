@@ -1,6 +1,6 @@
 {
   "name": "sass-piler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A configureable sass compiler with a CLI component.",
   "main": "index.js",
   "scripts": {
