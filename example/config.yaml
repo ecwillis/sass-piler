@@ -1,0 +1,4 @@
+outputDir: '_dist'
+files:
+  test.scss: 'test.css'
+  mist.scss: 'mister.css'
