@@ -1,4 +1,5 @@
 outputDir: '_dist'
+sourceDir: 'sass/'
 files:
   test.scss: 'test.css'
   mist.scss: 'mister.css'

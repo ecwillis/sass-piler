@@ -15,7 +15,7 @@ module.exports = async function(args) {
     console.log(e);
     return false;
   }
-
+  const sourceDir = configs.sourceDir || '';
   const filesObj = configs.files || {};
   
   fs.mkdirp(configs.outputDir);
@@ -24,7 +24,7 @@ module.exports = async function(args) {
     const output = `${configs.outputDir}/${filesObj[k]}`;
     console.log(`Rendering ${output}`);
     const result = sass.renderSync({
-      file: k,
+      file: `${sourceDir}${k}`,
       outFile: output,
       sourceMap: true
     });
